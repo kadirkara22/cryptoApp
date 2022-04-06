@@ -1,0 +1,37 @@
+.coin-row {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+.coin-row:hover {
+  background: black;
+}
+.coin {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: space-between;
+}
+.coin img {
+  width: 30px;
+  height: 30px;
+}
+.coin-data {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.coin-price {
+  margin-right: 20px;
+}
+.coin-percent-red {
+  color: red;
+  font-weight: bold;
+}
+.coin-percent-green {
+  color: green;
+  font-weight: bold;
+}
